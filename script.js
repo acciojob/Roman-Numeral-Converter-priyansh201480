@@ -20,12 +20,13 @@ function convertToRoman(num) {
 			result += symbol;
 			num -= value;
 		}
+		if(num===0) break;
 	}
 	
 return value;
 }
 
-console.log(convertToRoman(36));
+//console.log(convertToRoman(36));
 
 
 
